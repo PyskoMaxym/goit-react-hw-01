@@ -2,11 +2,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 250px;
+    width: 200px;
     border-radius: 8px;
     border: 2px solid black;
   }
   .info{
+    padding: 20px;
     justify-content: center;
     justify-items: center;
     overflow: hidden;
@@ -18,10 +19,11 @@
     width: 100px;
     border-radius: 50%;
     background-color: dimgrey;
+    margin-bottom: 15px;
   }
   
   .name {
-    font-size: 20px;
+    font-size: 18px;
     color: black;
     font-weight: bold;
     margin: 0;
@@ -29,32 +31,32 @@
   
   .tag {
     color: #757575;
-    font-size: 18px;
+    font-size: 16px;
   }
   
   .location {
     color: #757575;
-    font-size: 18px; 
+    font-size: 16px; 
   }
   
   .list{
-    display: flex;
-    justify-content: space-around;
-    background-color: lightgray;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    border-top: 2px solid dimgrey;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  border-top: 2px solid dimgrey;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: #b9b4b4; 
   }
 
   .label {
-    display: grid;
-    justify-items: center;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     font-size: 14px;
     color: gray;
-    padding: 10px;
+   width: 100px;
     color: black;
   }
   .label:not(:last-child) {
@@ -63,6 +65,6 @@
   .numbers {
     font-weight: bold;
     font-size: 16px;
-    font-weight: 700;
     color: black;
+    margin-top: 5px;
   }
